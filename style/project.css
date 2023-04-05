@@ -1,0 +1,59 @@
+body {
+    background-color: #251D3A;
+    margin: 0px 200px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 40px;
+}
+nav a {
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#Project{
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 160px;
+}
+#Project h2{
+    color:#FF7700 ;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+#Project p{
+    color:white ;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 40px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+.card h4{
+    color: #FF7700;
+    font-size: 20px;
+}
+.card p{
+    color: white;
+}  
+
+.container {
+    padding: 2px 16px;
+}
+#blog{
+    margin: 40px;
+}
+#blog h2{
+    color: #FF7700;
+}
