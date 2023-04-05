@@ -1,0 +1,40 @@
+body {
+    background-color: #251D3A;
+    margin: 0px 200px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 40px;
+}
+nav a {
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#blog{
+    margin: 40px;
+}
+#blog h2{
+    color: #FF7700;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+#blog p{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#blog ul{
+    padding-left: 0px;
+}
+#blog a{
+    text-decoration: none
+}
+#blog li{
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+}
