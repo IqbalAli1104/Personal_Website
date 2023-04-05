@@ -1,0 +1,102 @@
+body {
+    background-color: #251D3A;
+    margin: 0px 200px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 40px;
+}
+nav a {
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#About{
+    display: flex;
+    margin-top: 140px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 160px;
+    padding: 0px 16px;
+    justify-content: space-around;
+    
+}
+#profile{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    padding: 20px 40px;
+}
+#button {
+    background-color: #FF7700;
+    border-radius: 5%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+#detail{
+    padding-top: 20px;
+}
+#About h1{
+    color: #FF7700;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+#About p{
+    color: white;
+    font-size: 20px;
+}
+#Project{
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 160px;
+}
+#Project h2{
+    color:#FF7700 ;
+    font-size: 36px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+.card h4{
+    color: #FF7700;
+    font-size: 20px;
+}
+.card p{
+    color: white;
+}
+
+.container {
+    padding: 2px 16px;
+}
+#blog{
+    margin: 40px;
+}
+#blog h2{
+    color: #FF7700;
+    font-size: 36px;
+}
+#blog ul{
+    padding-left: 0px;
+}
+#blog li{
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+#blog a{
+    text-decoration: none
+}
